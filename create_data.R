@@ -3,7 +3,7 @@ require(stringr)
 require(dplyr)
 
 # setwd
-setwd("C:/Users/akruse/Documents/Projekte_Weitere/brussels")
+# your WD
 
 # import data
 mydata = read.csv("brussels_fake.csv", header = T, sep = ";")
