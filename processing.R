@@ -7,7 +7,7 @@ x = c("dplyr","data.table","sp","stplanr","leaflet","RColorBrewer")
 lapply(x, require, character.only = T)
 
 # setwd
-setwd("C:/Users/akruse/Documents/Projekte_Weitere/brussels")
+# your wd
 
 # import bike rentals (I've created a fake dataset via https://opendata.brussels.be/explore/dataset/villo-stations-availability-in-real-time/)
 mydata = read.csv("bikerides.csv", header = T, sep = ";")
